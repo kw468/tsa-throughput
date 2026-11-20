@@ -12,8 +12,8 @@ This repository turns those releases into two tidy tables:
 
 | Dataset | Grain | Rows | Files |
 | --- | --- | --- | --- |
-| **Hourly** | date × hour × airport × checkpoint | 34.7 M | `data/hourly/tsa_throughput_hourly_<year>.parquet` |
-| **Daily** | date (national total) | 4,546 | `data/tsa_throughput_daily.csv` (and `.parquet`) |
+| **Hourly** | date × hour × airport × checkpoint | 34.8 M | `data/hourly/tsa_throughput_hourly_<year>.parquet` |
+| **Daily** | date (national total) | 4,553 | `data/tsa_throughput_daily.csv` (and `.parquet`) |
 
 `data/source_files.csv` lists every source file with its date range, row
 count, total, column label, cross-check result, and any QA notes, so each row
@@ -88,7 +88,7 @@ The raw releases are not redistributed here. They are public:
 
 ## Coverage
 
-2014-03-01 through 2026-11-07. Every week from 2015-06-28 onward is complete.
+2014-03-01 through 2026-11-14. Every week from 2015-06-28 onward is complete.
 The only gaps are weeks TSA never released: the DHS archive lists for 2014 and
 2015 skip exactly these dates, and nothing was published for April–May 2014.
 
