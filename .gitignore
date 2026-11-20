@@ -1,0 +1,20 @@
+# Allowlist: this repository is public, so only the paths below are ever tracked.
+# Raw downloads, legacy outputs, scratch work, and machine-specific files stay local.
+/*
+!/.gitignore
+!/.python-version
+!/CLAUDE.md
+!/Justfile
+!/README.md
+!/LICENSE
+!/pyproject.toml
+!/uv.lock
+!/src/
+!/tests/
+!/data/
+
+# Never track these, even inside allowed directories
+__pycache__/
+*.py[cod]
+.*.tmp
+.DS_Store
